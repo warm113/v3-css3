@@ -20,8 +20,11 @@
     margin: 10px auto;
     border-radius: 50px;
     background: #fff;
-    &:nth-child(1) {
+    &:nth-child(2n + 1) {
       animation: right 1s infinite ease-in-out;
+    }
+    &:nth-child(2n) {
+      animation: left 1s infinite ease-in-out;
     }
   }
   @keyframes right {
