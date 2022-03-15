@@ -50,7 +50,7 @@ $curve2: cubic-bezier(0.645, 0.045, 0.355, 1);
     top: 50%;
     left: 50%;
     z-index: 2;
-    //animation: planet-bump $timing $curve2 infinite;
+    animation: planet-bump $timing $curve2 infinite;
 
     .tentacle {
       position: absolute;
