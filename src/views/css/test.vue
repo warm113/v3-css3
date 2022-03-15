@@ -6,10 +6,24 @@
     <div class="ball"></div>
     <div class="ball"></div>
     <div class="ball"></div>
+    <div class="ball"></div>
+    <div class="ball"></div>
+    <div class="ball"></div>
+    <div class="ball"></div>
   </div>
 </template>
 
 <style scoped lang="scss">
+$delays: (
+  right 1s,
+  left 1.1s,
+  right 1.05s,
+  left 1.15s,
+  right 1.1s,
+  left 1.05s,
+  right 1s
+);
+
 .container {
   width: 300px;
   height: 300px;
@@ -20,11 +34,17 @@
     margin: 10px auto;
     border-radius: 50px;
     background: #fff;
-    &:nth-child(2n + 1) {
-      animation: right 1s infinite ease-in-out;
-    }
-    &:nth-child(2n) {
-      animation: left 1s infinite ease-in-out;
+    // &:nth-child(2n + 1) {
+    //   animation-name: right 0 infinite ease-in-out;
+    // }
+    // &:nth-child(2n) {
+    //   animation-name: left 0 infinite ease-in-out;
+    // }
+    @each $delay in $delays {
+      $index: index($delays, $delay);
+      &:nth-child(#{$index}) {
+        animation: $delay infinite ease-in-out;
+      }
     }
   }
   @keyframes right {
