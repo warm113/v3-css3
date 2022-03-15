@@ -39,7 +39,7 @@ onMounted(() => {
   <div class="demo demo-1">
     <div class="contain-all">
       <a href="#" class="contain-icon icon-hook">
-        <svg
+        <!-- <svg
           class="cart-icon-1"
           version="1.1"
           width="150px"
@@ -164,7 +164,7 @@ onMounted(() => {
             d="
           M60.207,73.377l6.817,6.817 M81.273,64.554l-14.249,15.64"
           />
-        </svg>
+        </svg> -->
         <img
           class="apple-1"
           src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/80625/apple.svg"
@@ -424,7 +424,7 @@ onMounted(() => {
     </div>
   </div>
 
-  <div class="demo demo-2">
+  <!-- <div class="demo demo-2">
     <div class="contain-all">
       <a href="#" class="contain-icon icon-hook">
         <svg
@@ -538,9 +538,9 @@ onMounted(() => {
         <span class="text save-text">Save for Later</span>
       </a>
     </div>
-  </div>
+  </div> -->
 
-  <div class="demo demo-3">
+  <!-- <div class="demo demo-3">
     <div class="contain-all">
       <a href="#" class="contain-icon icon-hook">
         <svg
@@ -713,9 +713,9 @@ onMounted(() => {
         <span class="text gift-text">This is a Gift</span>
       </a>
     </div>
-  </div>
+  </div> -->
 
-  <div class="demo demo-4">
+  <!-- <div class="demo demo-4">
     <div class="contain-all">
       <a href="#" class="contain-icon icon-hook">
         <svg
@@ -813,11 +813,10 @@ onMounted(() => {
           C40.225-1.555,5.057-4.734,3.387,22.606c-1.398,22.88,20.955,40.717,41.75,50.522"
           />
         </svg>
-        <!--End Third Favorite Icon-->
         <span class="text favorite-text">Add to Favorites</span>
       </a>
     </div>
-  </div>
+  </div> -->
 </template>
 
 <style scoped lang="scss">
