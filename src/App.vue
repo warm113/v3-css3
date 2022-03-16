@@ -4,7 +4,13 @@
 </script>
 
 <template>
-  <router-view></router-view>
+  <div class="container">
+    <router-view></router-view>
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.container {
+  padding: 15px;
+}
+</style>

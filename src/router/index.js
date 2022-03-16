@@ -6,6 +6,10 @@ const routes = [
     component: () => import('../views/css/demo.vue'),
   },
   {
+    path: '/drag',
+    component: () => import('../views/dragTable/index.vue'),
+  },
+  {
     path: '/test',
     component: () => import('../views/css/test.vue'),
   },
