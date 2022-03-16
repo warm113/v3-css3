@@ -7,6 +7,10 @@ const routes = [
   },
   {
     path: '/test',
+    component: () => import('../views/css/test.vue'),
+  },
+  {
+    path: '/sass',
     component: () => import('../views/css/sass.vue'),
   },
   {
