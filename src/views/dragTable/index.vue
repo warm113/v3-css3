@@ -12,17 +12,7 @@ const columns = [
   { title: 'Action', key: 'operation' },
 ];
 
-interface DataItem {
-  key: number;
-  name: string;
-  platform: string;
-  version: string;
-  upgradeNum: number;
-  creator: string;
-  createdAt: string;
-}
-
-const data: DataItem[] = [];
+const data = [];
 for (let i = 0; i < 3; ++i) {
   data.push({
     key: i,
@@ -47,14 +37,7 @@ const innerColumns = [
   },
 ];
 
-interface innerDataItem {
-  key: number;
-  date: string;
-  name: string;
-  upgradeNum: string;
-}
-
-const innerData: innerDataItem[] = [];
+const innerData = [];
 for (let i = 0; i < 3; ++i) {
   innerData.push({
     key: i,
